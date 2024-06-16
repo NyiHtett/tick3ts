@@ -1,0 +1,20 @@
+.MenuSectionCatalog {
+    padding: 20px;
+    cursor:pointer;
+    font-size: 16px;
+    margin: 10px;
+    border: 5px solid transparent;
+    transition: background-color 0.5s ease;
+}
+
+.MenuSectionCatalog:hover {
+    background-color: #F4ce14;
+    border: 5px solid transparent;
+    border-radius: 10px;
+}
+
+.ClickedMenuCatalog {
+    background-color:  white;
+    border: 5px solid #F4ce14;
+    border-radius: 10px;
+}

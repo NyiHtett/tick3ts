@@ -1,0 +1,25 @@
+.TestimonialGroup {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0;
+    gap: 30px;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.people {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.infoPerson {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

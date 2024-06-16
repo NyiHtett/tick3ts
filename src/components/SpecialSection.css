@@ -1,0 +1,16 @@
+.specialTextRegion {
+    font-size: 40pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.specialDishes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 50px;
+}
