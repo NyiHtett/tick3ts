@@ -5,25 +5,19 @@ const HeroSection = () => {
   return (
     <div class="HeroSection" style={{backgroundImage:{img}}}>
       <div class="HeroTextRegion d-flex flex-column">
-        <h2>Little Lemon</h2>
-        <h3>California</h3>
+        <h2>Tick3ts</h2>
+        <h3>Modern Web3 Social app</h3>
         <p>
-          A family bussiness serving clients with authentic American foods,
-          coupled with modern dishes !
+         A modern fancy website where you can purchase tickets while connecting with potential contacts and relationships!
         </p>
-        <Link to="/Reserve">
+        <Link to="/Menu">
         <button type="button" class="btn btn-warning">
-          Reserve a table
+          Explore events
         </button>
         </Link>
       </div>
 
-        <img
-          class="restaurantImage"
-          src={img}
-          alt="restaurant indoor image"
-          height={300}
-        />
+        
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/Footer.png";
+import logo from "../assets/logos.png";
 import facebookLogo from "../assets/socialLogos/facebook.png";
 import InstagramLogo from "../assets/socialLogos/instagram.png";
 import linkedInLogo from "../assets/socialLogos/linkedIn.png";
@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div class="footer">
-      <img src={logo} alt="little lemon logo" />
+      <img src={logo} style={{width: "200px"}} alt="little lemon logo" />
       <div class="footer-nav-group">
         <div class="navbar">
           <h5>Doormat Navigation</h5>

@@ -14,6 +14,8 @@ import Water from '../assets/CatalogLogos/Watermellon.png'
 import Pome from '../assets/CatalogLogos/Pome.png'
 import Orange from '../assets/CatalogLogos/Orange.png'
 import first from '../assets/CatalogLogos/first.png'
+import second from '../assets/CatalogLogos/second.png'
+import third from '../assets/CatalogLogos/third.png'
 export const Catalog = [
     {
         id: 1,
@@ -33,6 +35,7 @@ export const Catalog = [
         time: "Sunday, May 5, 2024, from 2:00 PM to 4:00 PM",
         place: "Starting at Heritage Square, 101 History Lane, Oldtown",
         cost: "$20 per person, $15 for students and seniors",
+        image: second
     },
     {
         id: 3,
@@ -42,6 +45,7 @@ export const Catalog = [
         time: "Thursday, June 27, 2024, to Friday, June 28, 2024, from 11:00 AM to 8:00 PM",
         place: "Gourmet Pavilion, 432 Flavor Street, Foodie Town",
         cost: "$50 per day or $90 for a two-day pass",
+        image: third
     },
     {
         id: 4,

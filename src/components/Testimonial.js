@@ -5,7 +5,7 @@ import "./Testimonial.css";
 const Testimonial = () => {
   return (
     <div className="TestimonialGroup">
-      <h3 class="title">Testimonials</h3>
+      <h3 class="title">Attendees</h3>
       <div class="people row">
         {Client.map((person) => {
           return (

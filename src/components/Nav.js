@@ -27,8 +27,8 @@ const Nav = () => {
         <Link to="/Reserve" className="nav-item">
           Sign Up
         </Link>
-        <Link to="/Checkout" className="nav-item">
-        <img style={{marginRight:'5px'}} src="https://img.icons8.com/3d-fluency/50/shopping-cart.png" alt="shopping-cart"/>  {items.length}
+        <Link to="/Metamask" className="nav-item">
+          Metamask
         </Link>
       </div>
     </nav>

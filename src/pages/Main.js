@@ -9,7 +9,6 @@ const Main = () => {
     <>
       <Header />
       <HeroSection />
-      <Testing/>
       <SpecialSection/>
       <Footer/>
     </>

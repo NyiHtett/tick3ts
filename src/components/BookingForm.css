@@ -8,11 +8,11 @@ form {
     flex-direction: column;
     gap: 50px;
     padding: 50px;
-    color: black;
+    color: white;
     font-size: 20px;
     margin: 20px;
     border-radius: 20px;
-    background-color: #F4ce14;
+    background-color: #662d91;
     align-items: center;
 }
 
